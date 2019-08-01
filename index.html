@@ -219,6 +219,8 @@ Error message and password prompt
 
 <li>$:/view</li>
 
+<li>安装数据库</li>
+
 <li>内容运营</li>
 
 <li>配置运行环境</li>
@@ -9212,7 +9214,7 @@ Error message and password prompt
 <div created="20190611053357252" modified="20190611053357253" title="$:/state/toc/TableOfContents/新媒体运营-内容运营--118161433">
 <pre>open</pre>
 </div>
-<div created="20190801030814884" list="选题 内容运营 数据运营 运营规划 运营意识 新媒体运营 Django TiddlyWiki 配置运行环境" modified="20190801032127265" title="$:/StoryList">
+<div list="选题 内容运营 数据运营 运营规划 运营意识 新媒体运营 Django TiddlyWiki 配置运行环境 安装数据库" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9396,6 +9398,31 @@ Error message and password prompt
 <div created="20190603070513913" modified="20190603070517885" title="$:/view">
 <pre>classic</pre>
 </div>
+<div created="20190801040419519" modified="20190801045254870" tags="Django" title="安装数据库">
+<pre>!!! 安装 MySQL
+
+在 MySQL 官网下载社区版：[[https://dev.mysql.com/downloads/mysql/|https://dev.mysql.com/downloads/mysql/]]
+
+选择 DMG 文件包下载安装即可。
+
+注意，在安装 MySQL 设置密码时选择：Use Legacy Password Encryption
+
+
+!!! 安装 Navicat Premium
+
+Navicat Premium 是 MySQL 的可视化管理工具，在这里找到安装包。
+
+链接：[[https://share.weiyun.com/573dqmQ|https://share.weiyun.com/573dqmQ]] 密码：fbkkmc
+
+!!! 安装 mysqlclient
+
+由于 MySQL 不支持 Python3，因此需要先安装 mysql 驱动，可以执行以下命令：
+
+
+```
+sudo pip install mysqlclient
+```</pre>
+</div>
 <div created="20190611053139846" modified="20190611100817618" tags="新媒体运营" title="内容运营">
 <pre>如何做好内容运营？
 
@@ -9430,7 +9457,7 @@ Error message and password prompt
 * 分享率高：跨圈层用户也关心此话题（连接广度）
 * 把握关键时机：符合行业特点和用户特点（连接速度）</pre>
 </div>
-<div created="20190801032134730" modified="20190801034948428" tags="Django" title="配置运行环境">
+<div created="20190801032134730" modified="20190801040404942" tags="Django" title="配置运行环境">
 <pre>!!! 安装 Python 3
 
 Mac 机器上默认已经安装 Python 2.7，支持同时安装多个版本的 Python。建议保留系统的版本（删了不知道会出什么问题），再安装更新版本的 Python。
@@ -9465,7 +9492,17 @@ pip 是 Python 包管理工具，安装了 Python 之后你默认就拥有了 pi
 * 升级 pip：`pip install --upgrade pip`
 * 安装软件：`pip install SomePackage`
 * 升级软件：`pip install --upgrade SomePackage`
-* 卸载软件：`pip uninstall SomePackage`</pre>
+* 卸载软件：`pip uninstall SomePackage`
+
+
+!!! 安装 Django
+
+使用以下命令安装：
+
+
+```
+pip3 install Django==2.2.3
+```</pre>
 </div>
 <div created="20190610021932679" modified="20190610022808877" tags="新媒体运营" title="数据运营">
 <pre>''一、如何做数据周报''
