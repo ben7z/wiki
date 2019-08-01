@@ -145,6 +145,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/config/TextEditor/EnableToolbar</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close</li>
@@ -162,6 +164,8 @@ Error message and password prompt
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/state/edit/references--159369147</li>
 
 <li>$:/state/editpreviewtype</li>
 
@@ -191,6 +195,8 @@ Error message and password prompt
 
 <li>$:/state/toc/TableOfContents-新媒体运营--118161433</li>
 
+<li>$:/state/toc/TableOfContents-Django--118161433</li>
+
 <li>$:/state/toc/TableOfContents/新媒体运营-内容运营--118161433</li>
 
 <li>$:/StoryList</li>
@@ -215,6 +221,8 @@ Error message and password prompt
 
 <li>内容运营</li>
 
+<li>配置运行环境</li>
+
 <li>数据运营</li>
 
 <li>新媒体运营</li>
@@ -224,6 +232,8 @@ Error message and password prompt
 <li>运营规划</li>
 
 <li>运营意识</li>
+
+<li>Django</li>
 
 <li>TableOfContents</li>
 
@@ -250,6 +260,9 @@ Error message and password prompt
 </div>
 <div created="20190603032249655" modified="20190603032250580" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>show</pre>
+</div>
+<div created="20190801033200221" modified="20190801033204970" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
 </div>
 <div created="20190603070552337" modified="20190611053428420" title="$:/config/TextEditor/EnableToolbar">
 <pre>yes</pre>
@@ -9148,13 +9161,16 @@ Error message and password prompt
 <div created="20190601070104172" modified="20190601070124882" title="$:/SiteTitle">
 <pre>Ben's 知识管理</pre>
 </div>
+<div created="20190801033156283" modified="20190801033157366" title="$:/state/edit/references--159369147">
+<pre>hide</pre>
+</div>
 <div created="20190606012759851" modified="20190606012759851" title="$:/state/editpreviewtype">
 <pre>$:/core/ui/EditTemplate/body/preview/output</pre>
 </div>
 <div created="20190606012742448" modified="20190606012743655" title="$:/state/image-picker/system--21247838">
 <pre>hide</pre>
 </div>
-<div created="20190601074316500" modified="20190611053236188" title="$:/state/showeditpreview">
+<div created="20190601074316500" modified="20190801034928668" title="$:/state/showeditpreview">
 <pre>no</pre>
 </div>
 <div created="20190601085435165" modified="20190603071135323" title="$:/state/sidebar">
@@ -9181,19 +9197,22 @@ Error message and password prompt
 <div created="20190603032234432" modified="20190603032312217" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Explorer</pre>
 </div>
-<div created="20190601073102483" modified="20190610022813793" title="$:/state/tab/sidebar--595412856">
+<div created="20190601073102483" modified="20190801030819345" title="$:/state/tab/sidebar--595412856">
 <pre>TableOfContents</pre>
 </div>
 <div created="20190603032438745" modified="20190611053508493" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
-<div created="20190601091835632" modified="20190611100654852" title="$:/state/toc/TableOfContents-新媒体运营--118161433">
+<div created="20190601091835632" modified="20190801030837634" title="$:/state/toc/TableOfContents-新媒体运营--118161433">
+<pre>open</pre>
+</div>
+<div created="20190801032211807" modified="20190801033109233" title="$:/state/toc/TableOfContents-Django--118161433">
 <pre>open</pre>
 </div>
 <div created="20190611053357252" modified="20190611053357253" title="$:/state/toc/TableOfContents/新媒体运营-内容运营--118161433">
 <pre>open</pre>
 </div>
-<div list="选题 内容运营 数据运营 运营规划 运营意识" title="$:/StoryList">
+<div created="20190801030814884" list="选题 内容运营 数据运营 运营规划 运营意识 新媒体运营 Django TiddlyWiki 配置运行环境" modified="20190801032127265" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9209,19 +9228,19 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///Users/aben/blog/wiki/index.html&quot;
+            &quot;text&quot;: &quot;https://aben.ml/wiki/&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;aben.ml&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;aben.ml&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
-            &quot;text&quot;: &quot;file:&quot;
+            &quot;text&quot;: &quot;https:&quot;
         },
         &quot;$:/info/url/port&quot;: {
             &quot;title&quot;: &quot;$:/info/url/port&quot;,
@@ -9229,7 +9248,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/Users/aben/blog/wiki/index.html&quot;
+            &quot;text&quot;: &quot;/wiki/&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -9237,7 +9256,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;file://&quot;
+            &quot;text&quot;: &quot;https://aben.ml&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
@@ -9410,6 +9429,43 @@ Error message and password prompt
 * 打开率高：目标用户关心此话题（连接深度）
 * 分享率高：跨圈层用户也关心此话题（连接广度）
 * 把握关键时机：符合行业特点和用户特点（连接速度）</pre>
+</div>
+<div created="20190801032134730" modified="20190801034948428" tags="Django" title="配置运行环境">
+<pre>!!! 安装 Python 3
+
+Mac 机器上默认已经安装 Python 2.7，支持同时安装多个版本的 Python。建议保留系统的版本（删了不知道会出什么问题），再安装更新版本的 Python。
+
+安装方法：
+
+1. 官网安装 [[https://www.python.org/downloads/|https://www.python.org/downloads/]]
+
+推荐安装方法，建议所有的软件都在官网下载，否则会出现各种各样的版本问题。
+
+2. brew 安装
+
+```
+brew install python3
+```
+
+运行方法：
+
+运行系统的 Python 2.7，直接输入 `python xxx.py` 即可运行；运行自己安装的版本，使用 `python3 xxx.py`
+
+
+!!! Python pip 安装与使用
+
+pip 是 Python 包管理工具，安装了 Python 之后你默认就拥有了 pip。
+
+运行 pip 的方法与 Python 类似，运行系统的 pip，直接输入 `pip 命令` 即可运行；运行自己安装版本的 pip，使用 `pip3 命令`
+
+常用命令
+
+* 查看 pip 版本：`pip --version`
+* 查看已安装软件：`pip list`
+* 升级 pip：`pip install --upgrade pip`
+* 安装软件：`pip install SomePackage`
+* 升级软件：`pip install --upgrade SomePackage`
+* 卸载软件：`pip uninstall SomePackage`</pre>
 </div>
 <div created="20190610021932679" modified="20190610022808877" tags="新媒体运营" title="数据运营">
 <pre>''一、如何做数据周报''
@@ -9601,6 +9657,9 @@ Error message and password prompt
 |用户|公众号后台的简单维护&lt;br&gt;个人号和社群的维护|用户分层分阶段运营&lt;br&gt;用户体验要素的设计&lt;br&gt;社群和个人号框架设计|搭建维护海量用户策略&lt;br&gt;设计用户上瘾产品模型&lt;br&gt;搭建新媒体CRM体系|
 |增长|掌握1-2种增长手段&lt;br&gt;对市面增长手段模仿|清楚理解增长逻辑&lt;br&gt;理解并初步优化3种方式&lt;br&gt;对增长和商业结合的认知|设计并优化增长类产品&lt;br&gt;设计商业模式画布&lt;br&gt;打造持续增长引擎的能力|
 |平台|能够完成平台的分发&lt;br&gt;能够找到重点的平台|能够对新平台迅速适应&lt;br&gt;做好平台的任务分解&lt;br&gt;能够搭建平台|能尝到新媒体的红利期|</pre>
+</div>
+<div created="20190801030821316" modified="20190801032123381" tags="TableOfContents" title="Django">
+<pre></pre>
 </div>
 <div caption="Contents" created="20190601073105874" list-after="$:/core/ui/SideBar/Open" modified="20190601073348454" tags="$:/tags/SideBar" title="TableOfContents">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
